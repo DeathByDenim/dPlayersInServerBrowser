@@ -7,14 +7,14 @@
 	"description" : "Shows which players are in a game from the server browser without actually joining the lobby.",
 	"display_name" : "Players In Server Browser",
 	"enabled" : true,
-	"forum" : "",
+	"forum" : "https://forums.uberent.com/threads/rel-players-in-server-browser-62519.57664/",
 	"id" : "dPlayersInServerBrowser",
 	"identifier" : "com.pa.DeathByDenim.dPlayersInServerBrowser",
 	"priority" : 100,
 	"requires" : null,
-	"scenes" : [
+	"scenes" : {
 		"server_browser" : [ "coui://ui/mods/dPlayersInServerBrowser/dPlayersInServerBrowser_server_browser.js" ]
-	],
+	},
 	"signature" : "not yet implemented",
 	"version" : "1.0"
 }
