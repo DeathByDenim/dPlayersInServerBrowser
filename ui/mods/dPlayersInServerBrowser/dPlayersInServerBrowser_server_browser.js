@@ -15,7 +15,7 @@ $('.one-game').after(
 	'                            css: { \'ui-selected\': (host_id == model.currentSelectedGameHost()) },' +
 	'                            click: $parent.setSelected,' +
 	'                            event: { dblclick: $parent.joinSelectedGame }">' +
-	'                        <div class="col-md-12 game"><span style="margin-left:1.2em; margin-right: 1em;">PLAYERS:</span><span data-bind="foreach: $data.player_names"><span data-bind="text: $data" style="margin-right: 1em"></span></span></div>' +
+	'                        <div class="col-md-12 game"><span style="margin-left:1.2em; margin-right: 1em;">PLAYERS:</span><span data-bind="foreach: $data.player_names"><span data-bind="text: $data" class="dPlayersInServerBrowser_player-name"></span></span></div>' +
 	'                    </div>' +
 	'<!-- /ko -->'
 );

@@ -5,7 +5,9 @@
 	"context" : "client",
 	"date" : "2014/03/08",
 	"description" : "Shows which players are in a game from the server browser without actually joining the lobby.",
+	"description_nl" : "Laat zien welke speler deelnemen aan een spel vanuit de server browser zonder de lobby zelf in te gaan.",
 	"display_name" : "Players In Server Browser",
+	"display_name_nl" : "Spelers in de server browser",
 	"enabled" : true,
 	"forum" : "https://forums.uberent.com/threads/rel-players-in-server-browser-62519.57664/",
 	"id" : "dPlayersInServerBrowser",
@@ -13,8 +15,11 @@
 	"priority" : 100,
 	"requires" : null,
 	"scenes" : {
-		"server_browser" : [ "coui://ui/mods/dPlayersInServerBrowser/dPlayersInServerBrowser_server_browser.js" ]
+		"server_browser" : [
+			"coui://ui/mods/dPlayersInServerBrowser/dPlayersInServerBrowser_server_browser.js",
+			"coui://ui/mods/dPlayersInServerBrowser/dPlayersInServerBrowser_server_browser.css"
+		]
 	},
 	"signature" : "not yet implemented",
-	"version" : "1.0"
+	"version" : "1.1"
 }
