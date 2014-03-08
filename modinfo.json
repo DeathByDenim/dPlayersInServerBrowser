@@ -1,0 +1,20 @@
+{
+	"author" : "DeathByDenim",
+	"build" : "62519",
+	"category" : [ "ui" ],
+	"context" : "client",
+	"date" : "2014/03/08",
+	"description" : "Shows which players are in a game from the server browser without actually joining the lobby.",
+	"display_name" : "Players In Server Browser",
+	"enabled" : true,
+	"forum" : "",
+	"id" : "dPlayersInServerBrowser",
+	"identifier" : "com.pa.DeathByDenim.dPlayersInServerBrowser",
+	"priority" : 100,
+	"requires" : null,
+	"scenes" : [
+		"server_browser" : [ "coui://ui/mods/dPlayersInServerBrowser/dPlayersInServerBrowser_server_browser.js" ]
+	],
+	"signature" : "not yet implemented",
+	"version" : "1.0"
+}
